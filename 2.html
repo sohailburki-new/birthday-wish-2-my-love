@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Our Memories ❤️</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body { margin:0; font-family:'Georgia', serif; background:#fff1f5; color:#333; text-align:center; }
+.container { max-width:720px; margin:auto; padding:30px 18px 60px; }
+h1 { color:#c9184a; font-size:clamp(2rem,6vw,2.6rem); margin-bottom:20px; }
+.photos { display:grid; grid-template-columns:1fr; gap:14px; margin-bottom:30px; }
+.photos img { width:100%; border-radius:18px; box-shadow:0 10px 22px rgba(0,0,0,0.15); }
+video { width:100%; border-radius:18px; margin-bottom:30px; box-shadow:0 10px 22px rgba(0,0,0,0.15); }
+button { width:100%; padding:18px; font-size:1.1rem; background:#c9184a; color:#fff; border:none; border-radius:40px; cursor:pointer; }
+button:active { transform:scale(0.97); }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Our Special Moments 💖</h1>
+
+  <div class="photos">
+    <img src="10.jpg" alt="Us">
+    <img src="15.jpg" alt="Memories">
+    <img src="18.jpg" alt="Favorite">
+  </div>
+
+  <video controls>
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <button onclick="goToPage3()">Surprise 🎉</button>
+</div>
+
+<script>
+function goToPage3() {
+  window.location.href = "3.html";
+}
+</script>
+
+</body>
+</html>
